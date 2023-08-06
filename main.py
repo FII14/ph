@@ -4,6 +4,13 @@
 
 import hashlib
 
+print("""
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ Program : Pembuat Hash [MD5, SHA-1, SHA-256, SHA-512] @
+@ Pembuat : Rofi [FII14]                                @
+@ GitHub  : https://github.com/FII14/ph                 @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+""")
 input_teks = input("Masukkan teks yang ingin di-hash: ")
 if not input_teks:
     print("Input teks kosong. Tidak ada hash yang dihasilkan.")
