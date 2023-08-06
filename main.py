@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Program : Pembuat Hash [MD5, SHA-1, SHA-256, SHA-512]
 # Pembuat : Rofi [FII14]
 # GitHub  : https://github.com/FII14/ph
