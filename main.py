@@ -5,6 +5,7 @@ if not input_teks:
     print("Input teks kosong. Tidak ada hash yang dihasilkan.")
 else:
     algoritma_hash = ["md5", "sha1", "sha256", "sha512"]   
+    print("")
     for algoritma in algoritma_hash:        
         if algoritma == "md5":
             objek_hash = hashlib.md5()
@@ -19,3 +20,4 @@ else:
         objek_hash.update(input_teks.encode())
         hasil_hash = objek_hash.hexdigest()
         print(f"[*] Hasil hash {algoritma.upper()}: {hasil_hash}")
+    print("")
